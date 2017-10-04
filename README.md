@@ -22,7 +22,7 @@ The data access is "Dummy" type, so, that contains a fictitious data source and 
 
 # Architecture
 
-The core of this architecture is the Domain, similar to the onion architecture, but here, a service layer is not implemented, but the "adapters" layer is implemented alongside the anti-pattern DTO. It is decided to implement this old but not obsolete patron due to its nature specially created to be implemented in remote WebServices type interfaces. This is why Inheritance or implementation is not implemented and instead, dependency injection is used.
+The core of this architecture is the Domain, similar to the onion architecture, but here, a service layer is not implemented, but the "adapters" layer is implemented alongside the anti-pattern DTO. It is decided to implement this old but not obsolete pattern due to its nature specially created to be implemented in remote WebServices type interfaces. This is why Inheritance or implementation is not implemented and instead, dependency injection is used.
 
 On the other hand, the design pattern "Facade", is defined as the door (or entrance) which gives access to the rest of the system functions. The facade is aware of the classes involved in the system and may contain implementation of such classes to provide functionality.
 

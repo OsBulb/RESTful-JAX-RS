@@ -46,7 +46,7 @@ On the other hand, the design pattern "Facade", is defined as the door (or entra
 
 # Testing the service
 
-To perform the tests, the tool "SoapUI" is used, which is functionally similar to Postman. Both are feasible. Configuring SoapUI is simple and they [explain](https://restpatterns.mindtouch.us/HTTP_Status_Codes) it very well.
+To perform the tests, the tool "SoapUI" is used, which is functionally similar to Postman. Both are feasible. Configuring SoapUI is simple and they [explain](https://www.soapui.org/getting-started/your-first-soapui-project.html) it very well.
 
 ## GetUsers service method
 

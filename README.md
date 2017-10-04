@@ -245,7 +245,7 @@ Input Parameters:
 ```
 
 ## Note
-For test purposes, the PUT and DELETE methods are returning data. In strict rigor, these methods should not respond with data but with state codes.
+For test purposes, the PUT and DELETE methods are returning data. In strict rigour, these methods should not respond with data but with state codes.
 
 | **Code**  | **Description** |
 | :--- | :--- |

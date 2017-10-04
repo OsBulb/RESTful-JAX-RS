@@ -261,14 +261,9 @@ More [codes](https://restpatterns.mindtouch.us/HTTP_Status_Codes).
 This project is not robust, it needs implementation of validations. In case you want to incorporate them take into account:
 
 - Validations are not specific to business logic.
-- The validations are transversal and can go in any layer respecting its context and implementation.
+- The validations are transverse and can go in any layer respecting its context and implementation.
 - Including many "If / else" blocks does not mean that the system is not very elegant. Validations must be robust and control as many incidents as possible.
 
 ---------------------------------------------
 
 and that's it
-
-
-
-
-
